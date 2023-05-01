@@ -28,7 +28,6 @@ public class Department {
     @Column(name="location")
     private String location;
 
-   //testing github
 
 
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "department")
